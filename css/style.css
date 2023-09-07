@@ -1,0 +1,112 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffc932;
+}
+.container {
+  max-width: 1400px;
+  width: 100%;
+  padding: 60px 0;
+}
+.slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+}
+.card {
+    height: 590px;
+    width: 20%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #ffffff;
+}
+
+.title {
+    width: 120px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: #f3faff;
+}
+
+.price1 {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.price2 {
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.price3 {
+    margin-top: 6px;
+    font-size: 0.9rem;
+    color: #4642f8;
+}
+
+.text {
+    font-size: 0.85rem;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: #7994ec;
+}
+.swiper-navBtn {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  transform: translateY(-40%);
+  background: #fff;
+  border-radius: 50%;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 24px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+}
